@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main()
 {
-	int n,y,i,a[10];
-	scanf("%d\t%d",&n,&y);
-	for(i=0;i<=n;i++)
+	int s,r,i,a[10];
+	scanf("%d\t%d",&s,&r);
+	for(i=0;i<=s;i++)
 	{
 	scanf("\n%d\t",&a[i]);
 	}
-	printf("%d",a[y-1]);
+	printf("%d",a[r-1]);
 	return 0;
 }
