@@ -1,16 +1,16 @@
 #include<stdio.h>
 void main()
 {
-    int a[10],i,max,n;
-    scanf("%d",&n);
+    int n[10],i,max,m;
+    scanf("%d",&m);
     for(i=0;i<n;i++)
     {
-    scanf("%d",&a[i]);
+    scanf("%d",&n[i]);
     }
-    max=a[0];
-    for(i=0;i<n;i++)
+    max=n[0];
+    for(i=0;i<m;i++)
     {
-        if(max>a[i])
+        if(max>n[i])
         {
         printf("%d",i+1);
         break;
