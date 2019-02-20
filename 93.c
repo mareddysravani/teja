@@ -2,12 +2,12 @@
 int main(void) 
 {
 
-	int c,k;
-	scanf("%d",&c);
+	int s,i;
+	scanf("%d",&s);
   
-	k=c+273;
+	k=s+273;
   
-	printf("%d",k);
+	printf("%d",i);
   
   
 	return 0;
