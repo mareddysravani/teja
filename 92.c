@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-	 int no[5],i,sum=0;
+	 int num[5],i,sum=0;
 	 for(i=0;i<5;i++)
 	 {
-	 scanf("%d",&no[i]);
+	 scanf("%d",&num[i]);
 	 }
 	for(i=0;i<5;i++)
 	 {
-	 sum=sum+no[i];
+	 sum=sum+num[i];
 	 }
 	 printf(" %d",sum);
 	 
