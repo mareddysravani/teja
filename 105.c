@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-	int r;
-	scanf("%d",&r);
-	printf("%c",(r+64));
+	int i;
+	scanf("%d",&i);
+	printf("%c",(i+64));
 }
