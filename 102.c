@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main(void)
 {
-	int n;
-	scanf("%d",&n);
-	while(n%2==0)
+	int s;
+	scanf("%d",&s);
+	while(s%2==0)
 	{
-		n/=2;
+		s/=2;
 	}
-	printf("%d",n);
+	printf("%d",s);
 	return 0;
 }
