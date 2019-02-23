@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include<math.h>
 int main(void) {
-	int a,b,c,d;
+	int a,b,c,i;
 	scanf("%d %d %d",&a,&b,&c);
-	d=(a*b)/c;
-	printf("%d",d);	
+	i=(a*b)/c;
+	printf("%d",i);	
 	return 0;
 }
